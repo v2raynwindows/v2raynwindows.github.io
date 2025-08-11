@@ -1,4 +1,4 @@
-# V2rayN Windows | 8月11日19.3M/S|免费Shadowrocket/Clash/SSR/V2ray节点推荐，在线VPN机场梯子购买推荐  更新时间 2025-08-11 14:26:49
+# V2rayN Windows | 8月11日18.3M/S|免费V2ray/Shadowrocket/SSR/Clash节点推荐，在线VPN机场梯子购买推荐  更新时间 2025-08-11 14:31:37
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://v2raynwindows.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：

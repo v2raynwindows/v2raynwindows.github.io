@@ -293,6 +293,7 @@ Shadowrocket如同互联网世界中的“隐形翅膀”，助力用户穿越�
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-10-26-free-node-subscribe.htm">V2rayN Windows | 10月26日18.3M/S|免费V2ray节点/SSR节点/Shadowrocket节点/Clash节点/Trojan节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐</a></p>
+        <p>下一个：<a href="/free-nodes/2026-10-28-free-shadowrocket-node.htm">V2rayN Windows | 10月28日18.1M/S|免费SSR节点/Singbox节点/V2ray节点/Trojan节点/Shadowrocket节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
@@ -301,34 +302,14 @@ Shadowrocket如同互联网世界中的“隐形翅膀”，助力用户穿越�
         Nekobox 更注重轻量化和本地化，界面简洁，支持多协议基础功能；而 Hiddify Next 则整合了订阅转换、测速、规则分流等高级功能，更适合技术用户使用。<hr />    </div>
 </div>
 <div class="panel panel-default">
+    <div class="panel-heading"><h5>如何用 iptables 限制 V2Ray 服务的访问来源？</h5></div>
+    <div class="panel-body">
+        使用 iptables 规则仅允许可信 IP 或 CDN 的中转 IP 访问服务端口，例如 `iptables -A INPUT -p tcp -s <trusted_ip> --dport 443 -j ACCEPT`，并在默认策略下拒绝其他来源，从而降低被扫描与滥用风险。<hr />    </div>
+</div>
+<div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 的域名规则如何实现分流？</h5></div>
     <div class="panel-body">
         Sing-box 支持按域名匹配流量，将不同网站或应用流量分配到指定节点。结合策略组自动切换低延迟节点，可优化访问速度，保证网络稳定性并提高整体体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何设置？</h5></div>
-    <div class="panel-body">
-        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何把 Clash 规则与本地 hosts 文件结合使用？</h5></div>
-    <div class="panel-body">
-        可在 Clash 的 rules 中优先设置域名直连规则，并在系统 hosts 中添加常用站点的固定解析以加速 DNS 解析。注意 hosts 优先级高于 DNS，因此修改 hosts 需谨慎以避免与真实解析冲突。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 的 Routing 设置可以实现什么？</h5></div>
-    <div class="panel-body">
-        V2Ray 的 Routing 系统支持基于域名、IP、端口或协议的智能分流。用户可以指定特定网站直连、部分服务走代理，还能创建黑白名单，实现灵活的网络访问控制。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 是否支持多订阅源？</h5></div>
-    <div class="panel-body">
-        支持。用户可导入多个订阅 URL，每个订阅源独立管理。通过切换订阅源或合并策略组，可灵活管理节点，实现不同地区或用途的线路分配。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>V2Ray 支持哪些传输层协议？</h5></div>
-    <div class="panel-body">
-        V2Ray 支持多种传输层，包括 TCP、mKCP、WebSocket、gRPC、QUIC 等。每种传输方式都有不同的性能特点，例如 TCP 稳定、WS 兼容 CDN、QUIC 延迟低。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Vmess 节点可以通过 CDN 吗？</h5></div>
@@ -336,14 +317,34 @@ Shadowrocket如同互联网世界中的“隐形翅膀”，助力用户穿越�
         可以。Vmess 可通过 WebSocket 与 CDN 结合使用，只需将传输方式设置为 WS 并配置 host 与 path，即可实现流量中转。这样既能隐藏真实服务器，又能提升连接速度。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>WinXray 延迟检测如何提高网络稳定性？</h5></div>
+    <div class="panel-heading"><h5>WinXray 是否支持多订阅源？</h5></div>
     <div class="panel-body">
-        WinXray 定期测速节点延迟，并结合策略组自动切换到延迟最低节点。这样可保证网页、视频和游戏流量稳定快速访问，减少卡顿和掉线，提高整体网络体验。<hr />    </div>
+        支持。用户可导入多个订阅 URL，每个订阅源独立管理。通过切换订阅源或合并策略组，可灵活管理节点，实现不同地区或用途的线路分配。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何用 iptables 限制 V2Ray 服务的访问来源？</h5></div>
+    <div class="panel-heading"><h5>V2Ray 的 Routing 设置可以实现什么？</h5></div>
     <div class="panel-body">
-        使用 iptables 规则仅允许可信 IP 或 CDN 的中转 IP 访问服务端口，例如 `iptables -A INPUT -p tcp -s <trusted_ip> --dport 443 -j ACCEPT`，并在默认策略下拒绝其他来源，从而降低被扫描与滥用风险。    </div>
+        V2Ray 的 Routing 系统支持基于域名、IP、端口或协议的智能分流。用户可以指定特定网站直连、部分服务走代理，还能创建黑白名单，实现灵活的网络访问控制。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何把 Clash 规则与本地 hosts 文件结合使用？</h5></div>
+    <div class="panel-body">
+        可在 Clash 的 rules 中优先设置域名直连规则，并在系统 hosts 中添加常用站点的固定解析以加速 DNS 解析。注意 hosts 优先级高于 DNS，因此修改 hosts 需谨慎以避免与真实解析冲突。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>V2Ray 支持哪些传输层协议？</h5></div>
+    <div class="panel-body">
+        V2Ray 支持多种传输层，包括 TCP、mKCP、WebSocket、gRPC、QUIC 等。每种传输方式都有不同的性能特点，例如 TCP 稳定、WS 兼容 CDN、QUIC 延迟低。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Nekoray 节点订阅自动更新如何设置？</h5></div>
+    <div class="panel-body">
+        用户可添加订阅 URL，Nekoray 会定期自动下载并更新节点列表。保持节点最新可减少手动维护，提高节点可用性和网络连接稳定性，确保科学上网体验顺畅。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>WinXray 延迟检测如何提高网络稳定性？</h5></div>
+    <div class="panel-body">
+        WinXray 定期测速节点延迟，并结合策略组自动切换到延迟最低节点。这样可保证网页、视频和游戏流量稳定快速访问，减少卡顿和掉线，提高整体网络体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -391,16 +392,16 @@ Shadowrocket如同互联网世界中的“隐形翅膀”，助力用户穿越�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/free-ssr-node-2026-9-29.htm" title="V2rayN Windows | 9月29日20M/S|免费Singbox节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月29日20M/S|免费Singbox节点/V2ray节点/Clash节点/Shadowrocket节点/Trojan节点/SSR节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-22-free-node-subscribe.htm" title="V2rayN Windows | 10月22日21.7M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/SSR节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月22日21.7M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/Clash节点/SSR节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-10-clash-v2ray-ss-ssr.htm" title="V2rayN Windows | 10月10日22.7M/S|免费Trojan节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月10日22.7M/S|免费Trojan节点/Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-30-clash-node.htm" title="V2rayN Windows | 9月30日19.7M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月30日19.7M/S|免费Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-ssr-node-2026-9-27.htm" title="V2rayN Windows | 9月27日19.7M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月27日19.7M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-2-node-share.htm" title="V2rayN Windows | 9月2日18.3M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/Trojan节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月2日18.3M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/Trojan节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/free-ssr-node-2026-9-19.htm" title="V2rayN Windows | 9月19日19.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月19日19.1M/S|免费Shadowrocket节点/Clash节点/SSR节点/V2ray节点/Singbox节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-10-6-node-share.htm" title="V2rayN Windows | 10月6日23M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月6日23M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/shadowrocket-node-2026-10-27.htm" title="V2rayN Windows | 10月27日18.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月27日18.1M/S|免费Clash节点/V2ray节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-9-4-clash-node-daily-updates.htm" title="V2rayN Windows | 9月4日22.6M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月4日22.6M/S|免费V2ray节点/Clash节点/SSR节点/Shadowrocket节点/Singbox节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-9-7.htm" title="V2rayN Windows | 9月7日20.8M/S|免费Trojan节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月7日20.8M/S|免费Trojan节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-ssr-node-2026-9-3.htm" title="V2rayN Windows | 9月3日19.9M/S|免费Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月3日19.9M/S|免费Trojan节点/Singbox节点/V2ray节点/Shadowrocket节点/SSR节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-14-clash-node.htm" title="V2rayN Windows | 9月14日21.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月14日21.8M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Trojan节点/Clash节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-ssr-node-2026-9-21.htm" title="V2rayN Windows | 9月21日22.9M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月21日22.9M/S|免费Trojan节点/Shadowrocket节点/SSR节点/Singbox节点/V2ray节点/Clash节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-9-16-free-node-subscribe.htm" title="V2rayN Windows | 9月16日21.6M/S|免费SSR节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月16日21.6M/S|免费SSR节点/Trojan节点/Shadowrocket节点/V2ray节点/Clash节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-clash-subscribe-2026-10-7.htm" title="V2rayN Windows | 10月7日21.9M/S|免费Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月7日21.9M/S|免费Shadowrocket节点/Trojan节点/Clash节点/V2ray节点/SSR节点/Singbox节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/node-share-links-2026-11-3.htm" title="V2rayN Windows | 11月3日20.7M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 11月3日20.7M/S|免费Trojan节点/Singbox节点/Clash节点/SSR节点/Shadowrocket节点/V2ray节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/free-node-subscribe-links-2026-9-13.htm" title="V2rayN Windows | 9月13日20.2M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 9月13日20.2M/S|免费Shadowrocket节点/SSR节点/V2ray节点/Singbox节点/Clash节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/shadowrocket-node-2026-10-21.htm" title="V2rayN Windows | 10月21日18.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月21日18.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/V2ray节点/SSR节点/Trojan节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-10-8-free-v2ray.htm" title="V2rayN Windows | 10月8日19.6M/S|免费V2ray节点/Singbox节点/Trojan节点/Clash节点/SSR节点/Shadowrocket节点节点推荐，在线VPN机场梯子购买推荐">V2rayN Windows | 10月8日19.6M/S|免费V2ray节点/Singbox节点/Trojan节点/Clash节点/SSR节点/Shadowrocket节点节点推荐，在线VPN机场梯子购买推荐</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -412,7 +413,10 @@ Shadowrocket如同互联网世界中的“隐形翅膀”，助力用户穿越�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">26</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
+                <h4><span class="badge" style="float: right;">3</span> <a href="/date/2026-11/" title="2026-11 归档">2026-11</a></h4>
+            </li>
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">30</span> <a href="/date/2026-10/" title="2026-10 归档">2026-10</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-09/" title="2026-09 归档">2026-09</a></h4>
